@@ -80,10 +80,10 @@ const Header = () => {
             </Link>
 
             <Link
-              to="/lunex-ai"
+              to="/lunex-receptionist"
               className={cn(
                 "text-sm font-medium transition-colors hover:text-secondary",
-                isActive("/lunex-ai") ? "text-secondary" : "text-foreground"
+                isActive("/lunex-receptionist") ? "text-secondary" : "text-foreground"
               )}
             >
               Lunex Reception
@@ -178,7 +178,7 @@ const Header = () => {
                 About
               </Link>
               <Link
-                to="/lunex-ai"
+                to="/lunex-receptionist"
                 className="text-foreground font-medium py-2.5 px-2 rounded-md hover:bg-muted transition-colors touch-manipulation"
                 onClick={() => setMobileMenuOpen(false)}
               >

@@ -1,57 +1,109 @@
-# Brand Builder Project
+# Lunexweb Project
 
-## Project info
+A modern web development and SEO services website built with React, TypeScript, and Vite.
 
-## How can I edit this code?
+## 🚀 Quick Start
 
-There are several ways of editing your application.
+### Prerequisites
 
-**Use your preferred IDE**
+- Node.js 18+ and npm (or use [nvm](https://github.com/nvm-sh/nvm#installing-and-updating))
 
-If you want to work locally using your own IDE, you can clone this repo and push changes.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+### Local Development
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Install dependencies
+npm install
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start development server
 npm run dev
+
+# Build for production
+npm run build
+
+# Preview production build
+npm run preview
 ```
 
-**Edit a file directly in GitHub**
+## 🛠️ Technologies
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+- **Vite** - Fast build tool and dev server
+- **React 18** - UI library
+- **TypeScript** - Type safety
+- **Tailwind CSS** - Utility-first CSS
+- **shadcn/ui** - Component library
+- **React Router** - Client-side routing
 
-**Use GitHub Codespaces**
+## 📦 Project Structure
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```
+src/
+├── components/     # Reusable components
+│   ├── layout/    # Layout components (Header, Footer)
+│   ├── sections/  # Page sections
+│   └── ui/        # shadcn/ui components
+├── pages/         # Page components
+├── assets/        # Images and static assets
+└── lib/           # Utility functions
+```
 
-## What technologies are used for this project?
+## 🚢 Deployment
 
-This project is built with:
+### Deploying to Vercel
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+This project is configured for Vercel deployment:
 
-## How can I deploy this project?
+1. **Push to GitHub**
+   ```sh
+   git add .
+   git commit -m "Ready for deployment"
+   git push origin main
+   ```
 
-You can deploy this project using various hosting platforms like Vercel, Netlify, or any other static hosting service.
+2. **Connect to Vercel**
+   - Go to [vercel.com](https://vercel.com)
+   - Import your GitHub repository
+   - Vercel will auto-detect the Vite framework
+   - Click "Deploy"
+
+3. **Configuration**
+   - Build Command: `npm run build` (auto-detected)
+   - Output Directory: `dist` (auto-detected)
+   - Install Command: `npm install` (auto-detected)
+
+The `vercel.json` file is already configured with:
+- Proper routing for React Router (SPA)
+- Build settings
+- Framework detection
+
+### Environment Variables
+
+If you need environment variables:
+1. Add them in Vercel dashboard → Settings → Environment Variables
+2. Use `import.meta.env.VITE_YOUR_VAR` in your code
+3. Never commit `.env` files (already in `.gitignore`)
+
+## ✅ Pre-Deployment Checklist
+
+- [x] Build completes successfully (`npm run build`)
+- [x] No hardcoded secrets or API keys
+- [x] `.gitignore` properly configured
+- [x] `vercel.json` configured correctly
+- [x] All routes work correctly
+- [x] Images and assets load properly
+
+## 📝 Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
+
+## 🔒 Security
+
+- No sensitive data in the repository
+- `.env` files are gitignored
+- All external URLs are public APIs (Google Fonts)
+
+## 📄 License
+
+See LICENSE file for details.

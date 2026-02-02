@@ -206,7 +206,7 @@ const About = () => {
               </div>
 
               <Button variant="hero" size="lg" asChild>
-                <Link to="/lunex-ai">
+                <Link to="/lunex-receptionist">
                   Learn More About Lunex Reception <ArrowRight className="ml-2 w-4 h-4" />
                 </Link>
               </Button>

@@ -48,7 +48,7 @@ const App = () => (
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/packages" element={<Packages />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/lunex-ai" element={<LunexAI />} />
+            <Route path="/lunex-receptionist" element={<LunexAI />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>

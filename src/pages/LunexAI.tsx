@@ -44,9 +44,9 @@ const LunexAI = () => {
     <Layout>
       <SEO
         title="Lunex Reception | 24/7 Virtual Receptionist - Never Miss Another Customer Call"
-        description="Professional call answering service that answers calls 24/7 and captures leads. Trusted by 100+ South African businesses. Setup in 30 minutes. Starting from R1,499/month."
+        description="Professional call answering service that answers calls 24/7 and captures leads. Trusted by 100+ South African businesses. Same day setup. Starting from R1,499/month."
         keywords="virtual receptionist south africa, call answering service, 24/7 receptionist south africa, phone answering service, receptionist service south africa"
-        canonical="/lunex-ai"
+        canonical="/lunex-receptionist"
         ogImage="/hero-home.jpg"
       />
       
@@ -87,7 +87,7 @@ const LunexAI = () => {
               "@type": "ListItem",
               position: 2,
               name: "Lunex Reception",
-              item: "https://lunexweb.co.za/lunex-ai",
+              item: "https://lunexweb.co.za/lunex-receptionist",
             },
           ],
         }}
@@ -149,7 +149,7 @@ const LunexAI = () => {
                   <p className="text-white/70 text-xs sm:text-sm">Availability</p>
                 </div>
                 <div className="bg-white/10 rounded-lg p-3 sm:p-4 text-center text-primary-foreground">
-                  <p className="text-xl sm:text-2xl font-bold">30 sec</p>
+                  <p className="text-xl sm:text-2xl font-bold">Same day</p>
                   <p className="text-white/70 text-xs sm:text-sm">Setup Time</p>
                 </div>
               </div>
@@ -483,14 +483,14 @@ const LunexAI = () => {
                     <span className="text-muted-foreground">/month</span>
                   </div>
                   <p className="text-muted-foreground">Setup Fee: R3,999 (once-off)</p>
-                  <p className="text-sm text-secondary font-medium mt-1">Includes first month 120 minutes FREE</p>
+                  <p className="text-sm text-secondary font-medium mt-1">Includes first month 100 minutes FREE</p>
                 </div>
 
                 <ul className="space-y-4 mb-8 flex-grow">
                   {[
                     "Dedicated business phone number",
                     "24/7 receptionist service",
-                    "120 call minutes / month",
+                    "100 call minutes / month",
                     "Lead capture & qualification",
                     "Instant email notifications",
                     "Call recordings",
@@ -527,7 +527,7 @@ const LunexAI = () => {
                     <span className="text-muted-foreground">/month</span>
                   </div>
                   <p className="text-muted-foreground">Setup Fee: R3,999 (once-off)</p>
-                  <p className="text-sm text-secondary font-medium mt-1">Includes first month 120 minutes FREE</p>
+                  <p className="text-sm text-secondary font-medium mt-1">Includes first month 100 minutes FREE</p>
                 </div>
 
                 <ul className="space-y-4 mb-8 flex-grow">
@@ -568,7 +568,7 @@ const LunexAI = () => {
                     <span className="text-muted-foreground">/month</span>
                   </div>
                   <p className="text-muted-foreground">Setup Fee: R3,999 (once-off)</p>
-                  <p className="text-sm text-secondary font-medium mt-1">Includes first month 120 minutes FREE</p>
+                  <p className="text-sm text-secondary font-medium mt-1">Includes first month 100 minutes FREE</p>
                 </div>
 
                 <ul className="space-y-4 mb-8 flex-grow">
@@ -696,7 +696,7 @@ const LunexAI = () => {
                 { q: "How does the receptionist sound?", a: "Professional and natural. Customers get a helpful, friendly greeting that represents your business well. You can hear a demo above." },
                 { q: "What if the receptionist can't handle a call?", a: "We capture all details and notify you immediately. You can call back within minutes while the lead is still warm." },
                 { q: "Can I use my existing business number?", a: "You'll get a new professional number (087 prefix). We recommend branding this as your main business line." },
-                { q: "How long does setup take?", a: "30 minutes. We'll configure everything for your business, set up your number, and test it with you to make sure it's perfect." },
+                { q: "How long does setup take?", a: "Same day setup. We'll configure everything for your business, set up your number, and test it with you to make sure it's perfect." },
                 { q: "What happens if I exceed my monthly minutes?", a: "Additional minutes are billed at R6.50 per minute. You'll receive an email notification when you approach your monthly limit." },
                 { q: "Can I cancel anytime?", a: "Yes. Month-to-month with no long-term contract. Cancel anytime with 30 days notice." },
                 { q: "What areas do you cover?", a: "All of South Africa. We provide 087 and 060 numbers that work nationwide." },

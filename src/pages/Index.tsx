@@ -102,10 +102,8 @@ const Index = () => {
       <HeroSection
         title="Web Development & SEO Services in South Africa | Lunexweb"
         subtitle="We build stunning websites and optimize them for search engines to put your business in front of the right people, at the right time. Serving businesses across South Africa."
-        ctaText="Get Your Free Quote"
+        ctaText="Get Started Today"
         ctaLink="/contact"
-        secondaryCtaText="View Our Work"
-        secondaryCtaLink="/portfolio"
         backgroundImage={heroImage}
         backgroundImageAlt="Lunexweb digital agency offering web development and SEO services across South Africa"
         benefits={["Free Consultation", "ROI Focused", "Local Expertise"]}

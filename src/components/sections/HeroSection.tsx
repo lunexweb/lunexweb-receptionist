@@ -55,11 +55,11 @@ const HeroSection = ({
       {/* Content */}
       <div className="container mx-auto px-4 sm:px-6 relative z-10">
         <div className="max-w-2xl">
-          {/* Pain Point Badge */}
+          {/* Pain Point - More Prominent */}
           {painPoint && (
-            <div className="inline-flex items-center gap-2 bg-destructive/20 text-white px-3 sm:px-4 py-1.5 sm:py-2 rounded-full mb-4 sm:mb-6 animate-fade-in">
-              <TrendingUp size={16} className="sm:w-[18px] sm:h-[18px]" />
-              <span className="text-xs sm:text-sm font-medium">{painPoint}</span>
+            <div className="inline-flex items-center gap-2 bg-destructive/30 backdrop-blur-sm border border-destructive/40 text-white px-4 sm:px-5 py-2 sm:py-2.5 rounded-full mb-4 sm:mb-6 animate-fade-in shadow-lg">
+              <TrendingUp size={18} className="sm:w-5 sm:h-5" />
+              <span className="text-sm sm:text-base font-semibold">{painPoint}</span>
             </div>
           )}
 
@@ -73,37 +73,34 @@ const HeroSection = ({
             {subtitle}
           </p>
 
-          {/* Benefits */}
+          {/* Benefits - More Prominent */}
           {benefits.length > 0 && (
-            <div className="flex flex-wrap gap-2 sm:gap-4 mb-6 sm:mb-8 animate-fade-in" style={{ animationDelay: "0.3s" }}>
-              {benefits.map((benefit, index) => (
-                <div key={index} className="flex items-center gap-1.5 sm:gap-2 text-white/90">
-                  <CheckCircle size={16} className="sm:w-[18px] sm:h-[18px] text-secondary shrink-0" />
-                  <span className="text-xs sm:text-sm font-medium">{benefit}</span>
-                </div>
-              ))}
+            <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 sm:p-5 mb-6 sm:mb-8 animate-fade-in border border-white/20" style={{ animationDelay: "0.3s" }}>
+              <div className="flex flex-wrap gap-3 sm:gap-4">
+                {benefits.map((benefit, index) => (
+                  <div key={index} className="flex items-center gap-2 text-white">
+                    <CheckCircle size={18} className="sm:w-5 sm:h-5 text-secondary shrink-0" />
+                    <span className="text-sm sm:text-base font-semibold">{benefit}</span>
+                  </div>
+                ))}
+              </div>
             </div>
           )}
 
-          {/* CTAs */}
-          <div className="flex flex-col sm:flex-row flex-wrap gap-3 sm:gap-4 mb-6 sm:mb-8 animate-fade-in" style={{ animationDelay: "0.4s" }}>
+          {/* Trust Badge - Before CTA */}
+          {trustBadge && (
+            <div className="flex items-center gap-2 text-white/90 mb-4 sm:mb-6 animate-fade-in bg-white/5 backdrop-blur-sm rounded-lg px-4 py-2.5 inline-flex" style={{ animationDelay: "0.4s" }}>
+              <Shield size={18} className="sm:w-5 sm:h-5 text-secondary shrink-0" />
+              <span className="text-sm sm:text-base font-semibold">{trustBadge}</span>
+            </div>
+          )}
+
+          {/* CTA */}
+          <div className="animate-fade-in" style={{ animationDelay: "0.5s" }}>
             <Button variant="hero" size="xl" className="w-full sm:w-auto" asChild>
               <Link to={ctaLink}>{ctaText}</Link>
             </Button>
-            {secondaryCtaText && secondaryCtaLink && (
-              <Button variant="heroOutline" size="xl" className="w-full sm:w-auto" asChild>
-                <Link to={secondaryCtaLink}>{secondaryCtaText}</Link>
-              </Button>
-            )}
           </div>
-
-          {/* Trust Badge */}
-          {trustBadge && (
-            <div className="flex items-center gap-2 text-white/80 animate-fade-in" style={{ animationDelay: "0.5s" }}>
-              <Shield size={16} className="sm:w-[18px] sm:h-[18px] text-secondary shrink-0" />
-              <span className="text-xs sm:text-sm">{trustBadge}</span>
-            </div>
-          )}
         </div>
       </div>
     </section>
