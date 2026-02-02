@@ -144,24 +144,24 @@ const About = () => {
         </div>
       </section>
 
-      {/* Lunex AI Section */}
+      {/* Lunex Reception Section */}
       <section className="py-12 sm:py-16 md:py-20 bg-background">
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-8 sm:gap-10 md:gap-12 items-center">
             <div>
               <span className="text-secondary font-semibold uppercase tracking-wider text-xs sm:text-sm">Our Innovation</span>
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif font-bold mt-3 sm:mt-4 mb-4 sm:mb-6">
-                Introducing Lunex AI - Never Miss Another Call
+                Introducing Lunex Reception - Never Miss Another Call
               </h2>
               <div className="space-y-3 sm:space-y-4 text-muted-foreground text-sm sm:text-base mb-6 sm:mb-8">
                 <p>
-                  As part of our commitment to innovation, we've developed <strong className="text-foreground">Lunex AI</strong> - an AI-powered receptionist service that answers calls 24/7, qualifies leads, and books appointments automatically.
+                  As part of our commitment to innovation, we've developed <strong className="text-foreground">Lunex Reception</strong> - a 24/7 receptionist service that answers calls, qualifies leads, and books appointments automatically.
                 </p>
                 <p>
-                  Recognizing that many South African businesses struggle with missed calls and lost opportunities, we created Lunex AI to ensure every customer call is answered professionally, even when you're busy or after hours.
+                  Recognizing that many South African businesses struggle with missed calls and lost opportunities, we created Lunex Reception to ensure every customer call is answered professionally, even when you're busy or after hours.
                 </p>
                 <p>
-                  Our AI receptionist captures lead information, qualifies prospects, and instantly notifies you via email - ensuring you never miss a potential customer again. Trusted by 100+ businesses across South Africa, Lunex AI represents our dedication to solving real business problems with cutting-edge technology.
+                  Our receptionist service captures lead information, qualifies prospects, and instantly notifies you via email - ensuring you never miss a potential customer again. Trusted by 100+ businesses across South Africa, Lunex Reception represents our dedication to solving real business problems with reliable technology.
                 </p>
               </div>
               
@@ -207,7 +207,7 @@ const About = () => {
 
               <Button variant="hero" size="lg" asChild>
                 <Link to="/lunex-ai">
-                  Learn More About Lunex AI <ArrowRight className="ml-2 w-4 h-4" />
+                  Learn More About Lunex Reception <ArrowRight className="ml-2 w-4 h-4" />
                 </Link>
               </Button>
             </div>
@@ -218,7 +218,7 @@ const About = () => {
                 <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-full bg-white/20 flex items-center justify-center mx-auto mb-6">
                   <HeadphonesIcon className="w-10 h-10 sm:w-12 sm:h-12 text-white" />
                 </div>
-                <h3 className="text-2xl sm:text-3xl font-bold mb-4 font-sans">Lunex AI</h3>
+                <h3 className="text-2xl sm:text-3xl font-bold mb-4 font-sans">Lunex Reception</h3>
                 <p className="text-white/90 text-base sm:text-lg mb-6">
                   Your AI receptionist that never sleeps
                 </p>

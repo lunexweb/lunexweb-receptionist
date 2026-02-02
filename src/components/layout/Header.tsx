@@ -86,7 +86,7 @@ const Header = () => {
                 isActive("/lunex-ai") ? "text-secondary" : "text-foreground"
               )}
             >
-              Lunex AI
+              Lunex Reception
             </Link>
 
             {/* Services Dropdown */}
@@ -182,7 +182,7 @@ const Header = () => {
                 className="text-foreground font-medium py-2.5 px-2 rounded-md hover:bg-muted transition-colors touch-manipulation"
                 onClick={() => setMobileMenuOpen(false)}
               >
-                Lunex AI
+                Lunex Reception
               </Link>
               
               {/* Mobile Services Dropdown */}

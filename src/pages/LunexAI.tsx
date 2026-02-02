@@ -43,7 +43,7 @@ const LunexAI = () => {
   return (
     <Layout>
       <SEO
-        title="Lunex AI | 24/7 Virtual Receptionist - Never Miss Another Customer Call"
+        title="Lunex Reception | 24/7 Virtual Receptionist - Never Miss Another Customer Call"
         description="Professional call answering service that answers calls 24/7 and captures leads. Trusted by 100+ South African businesses. Setup in 30 minutes. Starting from R1,499/month."
         keywords="virtual receptionist south africa, call answering service, 24/7 receptionist johannesburg, phone answering service, receptionist service south africa"
         canonical="/lunex-ai"
@@ -55,7 +55,7 @@ const LunexAI = () => {
         type="Service"
         data={{
           serviceType: "Virtual Receptionist Service",
-          name: "Lunex AI Receptionist",
+          name: "Lunex Reception",
           description: "24/7 call answering service that answers calls and captures leads for businesses.",
           offers: {
             "@type": "Offer",
@@ -86,7 +86,7 @@ const LunexAI = () => {
             {
               "@type": "ListItem",
               position: 2,
-              name: "Lunex AI",
+              name: "Lunex Reception",
               item: "https://lunexweb.co.za/lunex-ai",
             },
           ],
@@ -628,7 +628,7 @@ const LunexAI = () => {
               {
                 name: "Mike Johnson",
                 company: "Mike's Plumbing, Johannesburg",
-                quote: "I was missing 15-20 calls every week when I was on jobs. Since getting Lunex AI, I haven't missed a single lead. Paid for itself in the first week.",
+                quote: "I was missing 15-20 calls every week when I was on jobs. Since getting Lunex Reception, I haven't missed a single lead. Paid for itself in the first week.",
               },
               {
                 name: "Sarah Nkosi",

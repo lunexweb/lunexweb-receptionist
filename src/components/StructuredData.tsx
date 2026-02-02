@@ -175,7 +175,7 @@ const StructuredData = ({ type, data }: StructuredDataProps) => {
               {
                 "@type": "ListItem",
                 position: 7,
-                name: "Lunex AI",
+                name: "Lunex Reception",
                 url: `${baseUrl}/lunex-ai`,
               },
             ],
