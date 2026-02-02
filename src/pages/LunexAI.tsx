@@ -45,7 +45,7 @@ const LunexAI = () => {
       <SEO
         title="Lunex Reception | 24/7 Virtual Receptionist - Never Miss Another Customer Call"
         description="Professional call answering service that answers calls 24/7 and captures leads. Trusted by 100+ South African businesses. Setup in 30 minutes. Starting from R1,499/month."
-        keywords="virtual receptionist south africa, call answering service, 24/7 receptionist johannesburg, phone answering service, receptionist service south africa"
+        keywords="virtual receptionist south africa, call answering service, 24/7 receptionist south africa, phone answering service, receptionist service south africa"
         canonical="/lunex-ai"
         ogImage="/hero-home.jpg"
       />

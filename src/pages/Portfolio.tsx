@@ -157,7 +157,7 @@ const Portfolio = () => {
       <SEO
         title="Our Portfolio | Website Projects - Lunexweb"
         description="Explore our portfolio of successful website projects across diverse industries. Over 100 successful projects delivered including construction, security, fashion, legal, education, and more."
-        keywords="lunexweb portfolio, website examples johannesburg, web design portfolio south africa, website projects, case studies, web development examples"
+        keywords="lunexweb portfolio, website examples south africa, web design portfolio south africa, website projects, case studies, web development examples"
         canonical="/portfolio"
         ogImage={heroImage}
       />

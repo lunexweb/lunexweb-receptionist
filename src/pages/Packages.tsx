@@ -112,7 +112,7 @@ const Packages = () => {
       <SEO
         title="Pricing & Packages | Website Packages - Lunexweb"
         description="Transparent pricing for website development and maintenance packages. Starting from R4,999 for websites. No hidden fees, flexible options, payment plans available. All packages include free consultation."
-        keywords="website pricing johannesburg, web development packages, website maintenance packages, seo packages south africa"
+        keywords="website pricing south africa, web development packages, website maintenance packages, seo packages south africa"
         canonical="/packages"
         ogImage={heroImage}
       />
@@ -139,7 +139,7 @@ const Packages = () => {
       />
       
       <HeroSection
-        title="Website Packages - Transparent Pricing Johannesburg"
+        title="Website Packages - Transparent Pricing South Africa"
         subtitle="Choose a package that fits your budget and goals. All packages include quality workmanship and dedicated support. Custom solutions available for unique requirements."
         ctaText="See Our Pricing"
         ctaLink="/contact"

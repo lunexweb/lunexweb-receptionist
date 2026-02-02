@@ -12,9 +12,9 @@ const Index = () => {
   return (
     <Layout>
       <SEO
-        title="Lunexweb | Web Development & SEO Services in Johannesburg"
-        description="Lunexweb is a digital agency in Johannesburg offering website development and SEO services. Transform your business online. Based in Kempton Park, trusted across South Africa."
-        keywords="web development johannesburg, seo services kempton park, website design johannesburg, digital agency south africa"
+        title="Lunexweb | Web Development & SEO Services in South Africa"
+        description="Lunexweb is a digital agency offering website development and SEO services across South Africa. Transform your business online. Based in Kempton Park, trusted nationwide."
+        keywords="web development south africa, seo services south africa, website design south africa, digital agency south africa"
         canonical="/"
         ogImage={heroImage}
       />
@@ -100,14 +100,14 @@ const Index = () => {
       />
       
       <HeroSection
-        title="Web Development & SEO Services in Johannesburg | Lunexweb"
-        subtitle="We build stunning websites and optimize them for search engines to put your business in front of the right people, at the right time. Based in Johannesburg, trusted across South Africa."
+        title="Web Development & SEO Services in South Africa | Lunexweb"
+        subtitle="We build stunning websites and optimize them for search engines to put your business in front of the right people, at the right time. Serving businesses across South Africa."
         ctaText="Get Your Free Quote"
         ctaLink="/contact"
         secondaryCtaText="View Our Work"
         secondaryCtaLink="/portfolio"
         backgroundImage={heroImage}
-        backgroundImageAlt="Lunexweb digital agency in Johannesburg offering web development and SEO services"
+        backgroundImageAlt="Lunexweb digital agency offering web development and SEO services across South Africa"
         benefits={["Free Consultation", "ROI Focused", "Local Expertise"]}
         trustBadge="Trusted by 50+ South African businesses"
         painPoint="Struggling to get noticed online?"

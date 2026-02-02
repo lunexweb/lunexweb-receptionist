@@ -42,9 +42,9 @@ const About = () => {
   return (
     <Layout>
       <SEO
-        title="About Us | Lunexweb - Digital Agency in Johannesburg"
-        description="Founded in Johannesburg, Lunexweb helps local businesses thrive online. With 50+ happy clients and 100+ projects completed, we combine creativity with strategy to deliver results."
-        keywords="about lunexweb, digital agency johannesburg, web development company kempton park, seo services south africa"
+        title="About Us | Lunexweb - Digital Agency in South Africa"
+        description="Lunexweb helps businesses across South Africa thrive online. With 50+ happy clients and 100+ projects completed, we combine creativity with strategy to deliver results."
+        keywords="about lunexweb, digital agency south africa, web development company south africa, seo services south africa"
         canonical="/about"
         ogImage={heroImage}
       />
@@ -71,12 +71,12 @@ const About = () => {
       />
       
       <HeroSection
-        title="About Lunexweb - Digital Agency in Johannesburg Committed to Your Growth"
-        subtitle="Founded in Johannesburg, Lunexweb was born from a passion for helping local businesses thrive in the digital world. We combine creativity with strategy to deliver results that matter."
+        title="About Lunexweb - Digital Agency in South Africa Committed to Your Growth"
+        subtitle="Lunexweb was born from a passion for helping businesses across South Africa thrive in the digital world. We combine creativity with strategy to deliver results that matter."
         ctaText="Start Your Journey"
         ctaLink="/contact"
         backgroundImage={heroImage}
-        backgroundImageAlt="About Lunexweb - Digital agency team in Johannesburg committed to business growth"
+        backgroundImageAlt="About Lunexweb - Digital agency team committed to business growth across South Africa"
         benefits={["Local Expertise", "Proven Results", "Dedicated Support"]}
         trustBadge="Proudly serving businesses across South Africa"
         painPoint="Need a partner who truly understands your business?"

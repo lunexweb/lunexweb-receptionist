@@ -17,7 +17,7 @@ const Footer = () => {
               </span>
             </Link>
             <p className="text-primary-foreground/80 mb-6">
-              Empowering businesses with cutting-edge digital solutions. We're proudly based in Johannesburg.
+              Empowering businesses across South Africa with cutting-edge digital solutions. Based in Kempton Park, serving nationwide.
             </p>
             <div className="flex gap-4">
               <a 

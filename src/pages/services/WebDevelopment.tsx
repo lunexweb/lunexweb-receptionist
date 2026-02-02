@@ -62,9 +62,9 @@ const WebDevelopment = () => {
   return (
     <Layout>
       <SEO
-        title="Website Development Johannesburg | Custom Websites - Lunexweb"
-        description="Professional website development in Johannesburg. Custom responsive websites that convert visitors into customers. 100+ websites delivered across South Africa. Fast delivery, ongoing support."
-        keywords="website development johannesburg, web design kempton park, custom website south africa, responsive website design, ecommerce website johannesburg, business website development"
+        title="Website Development South Africa | Custom Websites - Lunexweb"
+        description="Professional website development across South Africa. Custom responsive websites that convert visitors into customers. 100+ websites delivered. Fast delivery, ongoing support."
+        keywords="website development south africa, web design south africa, custom website south africa, responsive website design, ecommerce website south africa, business website development"
         canonical="/services/web-development"
         ogImage={heroImage}
       />
@@ -74,7 +74,7 @@ const WebDevelopment = () => {
         type="Service"
         data={{
           serviceType: "Website Development",
-          name: "Website Development Johannesburg",
+          name: "Website Development South Africa",
           description: "Professional website development services including responsive design, e-commerce, custom features, and ongoing support.",
           offers: {
             "@type": "Offer",
@@ -106,12 +106,12 @@ const WebDevelopment = () => {
       />
       
       <HeroSection
-        title="Website Development Johannesburg - Custom Websites That Convert"
+        title="Website Development South Africa - Custom Websites That Convert"
         subtitle="We design and develop custom websites that don't just look beautiful—they convert visitors into paying customers. Your 24/7 digital storefront, built to perform."
         ctaText="Build Your Salesperson Website"
         ctaLink="/contact"
         backgroundImage={heroImage}
-        backgroundImageAlt="Website Development Johannesburg - Custom responsive websites that convert visitors into customers"
+        backgroundImageAlt="Website Development South Africa - Custom responsive websites that convert visitors into customers"
         benefits={["Custom Design", "Fast Delivery", "Ongoing Support"]}
         trustBadge="100+ websites delivered across South Africa"
         painPoint="Is your outdated website costing you customers?"

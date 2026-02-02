@@ -17,7 +17,7 @@ const StructuredData = ({ type, data }: StructuredDataProps) => {
           name: "Lunexweb",
           url: baseUrl,
           logo: `${baseUrl}/logo.png`,
-          description: "Digital agency in Johannesburg offering website development and SEO services.",
+          description: "Digital agency offering website development and SEO services across South Africa.",
           address: {
             "@type": "PostalAddress",
             addressLocality: "Kempton Park",
@@ -45,7 +45,7 @@ const StructuredData = ({ type, data }: StructuredDataProps) => {
           "@id": `${baseUrl}#business`,
           name: "Lunexweb",
           image: `${baseUrl}/logo.png`,
-          description: "Digital agency in Johannesburg offering website development and SEO services.",
+          description: "Digital agency offering website development and SEO services across South Africa.",
           url: baseUrl,
           telephone: "+27-78-999-2503",
           email: "info@lunexweb.com",
@@ -104,7 +104,7 @@ const StructuredData = ({ type, data }: StructuredDataProps) => {
           "@id": `${baseUrl}#website`,
           name: "Lunexweb",
           url: baseUrl,
-          description: "Digital agency in Johannesburg offering website development and SEO services.",
+          description: "Digital agency offering website development and SEO services across South Africa.",
           publisher: {
             "@type": "Organization",
             "@id": `${baseUrl}#organization`,

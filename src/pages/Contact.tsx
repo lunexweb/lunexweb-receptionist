@@ -72,8 +72,8 @@ const Contact = () => {
     <Layout>
       <SEO
         title="Contact Us | Lunexweb - Get Your Free Consultation"
-        description="Get in touch with Lunexweb for a free consultation. Based in Kempton Park, Johannesburg. Call 078 999 2503 or email info@lunexweb.com. We typically respond within 2 hours."
-        keywords="contact lunexweb, free consultation johannesburg, web development quote, seo consultation south africa, lunexweb contact"
+        description="Get in touch with Lunexweb for a free consultation. Serving businesses across South Africa. Call 078 999 2503 or email info@lunexweb.com. We typically respond within 2 hours."
+        keywords="contact lunexweb, free consultation south africa, web development quote, seo consultation south africa, lunexweb contact"
         canonical="/contact"
         ogImage={heroImage}
       />
@@ -100,12 +100,12 @@ const Contact = () => {
       />
       
       <HeroSection
-        title="Contact Lunexweb - Get Your Free Consultation in Johannesburg"
+        title="Contact Lunexweb - Get Your Free Consultation"
         subtitle="Ready to take your business to the next level? Get in touch with our team for a free consultation. We're here to help you succeed online."
         ctaText="Discuss Your Project"
         ctaLink="tel:+27789992503"
         backgroundImage={heroImage}
-        backgroundImageAlt="Contact Lunexweb - Get in touch for a free consultation in Johannesburg"
+        backgroundImageAlt="Contact Lunexweb - Get in touch for a free consultation"
         benefits={["Free Consultation", "Quick Response", "No Obligation"]}
         trustBadge="We typically respond within 2 hours"
         painPoint="Have questions? We have answers."

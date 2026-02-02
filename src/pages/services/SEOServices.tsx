@@ -62,9 +62,9 @@ const SEOServices = () => {
   return (
     <Layout>
       <SEO
-        title="SEO Services Johannesburg | Get Found on Google - Lunexweb"
-        description="Professional SEO services in Johannesburg. Get first page rankings, increased organic traffic, and more leads. Average 150% increase in organic traffic. Free SEO audit available."
-        keywords="seo services johannesburg, seo company kempton park, search engine optimization south africa, local seo johannesburg, seo agency south africa, keyword research, link building"
+        title="SEO Services South Africa | Get Found on Google - Lunexweb"
+        description="Professional SEO services across South Africa. Get first page rankings, increased organic traffic, and more leads. Average 150% increase in organic traffic. Free SEO audit available."
+        keywords="seo services south africa, seo company south africa, search engine optimization south africa, local seo south africa, seo agency south africa, keyword research, link building"
         canonical="/services/seo"
         ogImage={heroImage}
       />
@@ -74,7 +74,7 @@ const SEOServices = () => {
         type="Service"
         data={{
           serviceType: "SEO Services",
-          name: "SEO Services Johannesburg",
+          name: "SEO Services South Africa",
           description: "Professional SEO services including keyword research, on-page optimization, link building, local SEO, and technical SEO.",
           offers: {
             "@type": "Offer",
@@ -106,12 +106,12 @@ const SEOServices = () => {
       />
       
       <HeroSection
-        title="SEO Services Johannesburg - Get Found on Google & Rank Higher"
+        title="SEO Services South Africa - Get Found on Google & Rank Higher"
         subtitle="Our SEO strategies help your business rank higher on Google, attract more organic traffic, and convert visitors into customers—without paying for every click."
         ctaText="Get Free SEO Audit"
         ctaLink="/contact"
         backgroundImage={heroImage}
-        backgroundImageAlt="SEO Services Johannesburg - Get found on Google with professional search engine optimization"
+        backgroundImageAlt="SEO Services South Africa - Get found on Google with professional search engine optimization"
         benefits={["First Page Rankings", "Increased Traffic", "More Leads"]}
         trustBadge="Average 150% increase in organic traffic"
         painPoint="Invisible on Google? Your competitors are taking your customers."

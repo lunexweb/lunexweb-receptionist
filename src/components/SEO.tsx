@@ -11,9 +11,9 @@ interface SEOProps {
 }
 
 const SEO = ({
-  title = "Lunexweb | Web Development & SEO Services in Johannesburg",
-  description = "Lunexweb is a digital agency in Johannesburg offering website development and SEO services. Transform your business online.",
-  keywords = "web development johannesburg, seo services kempton park, website design johannesburg, digital agency south africa",
+  title = "Lunexweb | Web Development & SEO Services in South Africa",
+  description = "Lunexweb is a digital agency offering website development and SEO services across South Africa. Transform your business online.",
+  keywords = "web development south africa, seo services south africa, website design south africa, digital agency south africa",
   canonical,
   ogImage,
   ogType = "website",
